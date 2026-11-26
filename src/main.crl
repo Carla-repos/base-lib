@@ -1,6 +1,6 @@
 const io := @import("stdio");
 
-void message = fn() {
+export void message = fn() {
     let language := "Carla";
     io.printf("Hello, World 100%% made in %!\n", language);
 }
